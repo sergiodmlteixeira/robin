@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         env:
-          - {ROS_DISTRO: melodic, ROS_REPO: melodic}
+          - {ROS_DISTRO: melodic, ROS_REPO: main}
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
